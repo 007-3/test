@@ -1,0 +1,130 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+#head{
+    display: flex;
+    height: px2rem(100);
+    justify-content: space-between;
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    padding-top: px2rem(50);
+    // line-height: px2rem(100);
+    div{
+        line-height: px2rem(100);
+        font-size: px2rem(40);
+        // font-weight: bold;
+        span{
+            font-size:  px2rem(40);
+        }
+    }
+}
+#daohang{
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    padding-top: px2rem(20);
+    display: flex;
+    height: px2rem(60);
+    justify-content: space-around;
+    border-bottom: 1px solid #c5c5c5;
+    div{
+        color: #c5c5c5;
+        font-size:  px2rem(30);
+        span{
+            color: #c5c5c5;
+            font-size:  px2rem(30);
+        }
+    }
+
+}
+
+#ulbox{
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    display: flex;
+    flex-flow: row wrap;
+    li{ 
+        padding-top: px2rem(30);
+        width: 50%;
+        img{
+            text-align: center;
+            width: px2rem(280);
+            height: px2rem(280); 
+           
+            padding-bottom: px2rem(35);
+        }
+        p{
+            // padding-top: px2rem(35);
+            font-size: px2rem(30);
+        }
+        .xiabox{
+            height: px2rem(70);
+            display: flex;
+            justify-content:space-between;
+            padding-right: px2rem(30);
+            // padding-right: ;
+            .xbleft{
+                color: red;
+                line-height: px2rem(70);
+                display: block;
+                span{
+                    font-size:px2rem(34);
+                }
+            }
+            .xbzhong{
+                color: #c5c5c5;
+                text-decoration: line-through;
+                line-height: px2rem(70);
+                span{
+                    font-size: px2rem(20);
+                }
+            }
+            .xbright{
+                line-height: px2rem(70);
+                span{
+                    font-size: px2rem(40);
+                }
+            }
+        }
+    }
+}
+#end{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: px2rem(100);
+    height: px2rem(100);
+    margin-bottom: px2rem(30);
+    margin-right: px2rem(30);
+    border: 2px solid #c5c5c5;
+    border-radius: 100px;
+    box-shadow: #ccc 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // position: relative;
+    a{
+        text-decoration:none;
+        color:#333;
+    span{
+        font-size: px2rem(50);
+        color: orangered;
+    }}
+    .ends{
+        position: absolute;
+        top: px2rem(-5);
+        right: px2rem(2);
+        width: px2rem(35);
+        height: px2rem(35);
+        background: orangered;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-size: px2rem(30);
+            color: #ffffff;
+        }
+    }
+}

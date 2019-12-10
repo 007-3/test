@@ -1,0 +1,184 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+
+#hedtop{
+    height: px2rem(520);
+    width: 100%;
+    background-color:  #fd8850;
+    position: absolute;
+    .grzx{
+        padding-top: px2rem(60);
+        padding-bottom: px2rem(50);
+        text-align: center;
+        color: #ffffff;
+        font-size: px2rem(50);
+    }
+    .renwu{
+        padding-left: px2rem(30);
+        padding-right: px2rem(30);
+        display: flex;
+        justify-content: space-between;
+        .name{
+            p{
+                display: inline-block;
+                font-size: px2rem(50);
+                color: #ffffff;
+                padding-bottom: px2rem(10);
+            }
+            .zuoxia{
+                 position: relative;
+            .dl{
+                height: px2rem(65);
+                width: px2rem(65);
+                background: #ffffff;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+                 span{
+                // overflow: hidden;
+                font-size: px2rem(40);
+                color:  #fd8850;
+                }
+            }
+            .txy{
+                position: absolute;
+                top: px2rem(12);
+                left: px2rem(42);
+                height: px2rem(45);
+                width: px2rem(150);
+                background: #ffffff;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span{
+                    font-size: px2rem(25);
+                    color:  #fd8850;
+                }
+            }
+        }
+           
+        }
+        .touxiang{
+            img{
+                border-radius: 60px;
+                width: px2rem(126);
+                height: px2rem(126);
+            }
+        }
+    }
+    .end{
+        padding-top: px2rem(40);
+        display: flex;
+        // justify-content: space-around;
+        li{      
+            // height: px2rem(84);
+            flex: 1;
+            
+            #csp{
+                font-size: px2rem(50);
+                color: #ffffff;
+            }
+                
+            p{ 
+                padding-top: px2rem(15);
+                text-align: center;
+                font-size: px2rem(26);
+                padding-left: 15px;
+                color: #ffffff; 
+            }
+        }
+    }
+    .amyin{
+        width: px2rem(660);
+        height: px2rem(40);
+        background-color: #fe9e75;
+        margin: 0 auto;
+        margin-top: px2rem(37);
+        border-radius:60px ;
+    }
+}
+#zhongbox{
+    top: px2rem(500);
+    position: relative;
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    // padding-bottom: px2rem(60);
+    // overflow: hidden;
+    .hebox{
+        border-radius: 5%  ;
+        background-color: #ffffff;
+        border: 1px solid #c6c6c6;
+        .aass{
+            padding-top: px2rem(30);
+            margin-left: px2rem(30);
+        // padding-right: px2rem(30);
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #c6c6c6;
+        
+            div{
+                padding-top: px2rem(30);
+                padding-bottom: px2rem(30);
+            // display: inline-block;
+                a{
+                    padding-left: px2rem(20);
+                }
+            }
+            .right{
+                padding-right: px2rem(30);
+            }
+        }
+        .aas{
+            padding-top: px2rem(30);
+            padding-bottom: px2rem(50);
+        
+            margin-left: px2rem(30);
+        // padding-right: px2rem(30);
+            display: flex;
+            justify-content: space-between;
+            // border-bottom: 2px solid #c6c6c6;
+        
+            div{
+                padding-top: px2rem(30);
+                padding-bottom: px2rem(30);
+            // display: inline-block;
+            a{
+                padding-left: px2rem(20);
+            }
+            }
+            .right{
+                padding-right: px2rem(30);
+            }
+        }
+    }
+}
+#ender{
+    position: fixed;
+    bottom: 0;
+    // margin-top: px2rem(59);
+    display: flex;
+    width: 100%;
+    // justify-content: space-around;
+    li{      
+        // height: px2rem(84);
+        flex: 1;
+        #csp{
+            font-size: px2rem(50);
+            color: black;
+        }
+            
+        p{ 
+            padding-top: px2rem(15);
+            text-align: center;
+            font-size: px2rem(26);
+            // padding-left: 15px;
+            color: #c2c2c2;  
+        }
+    }
+}

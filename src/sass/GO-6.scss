@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+
+#head {
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    height: px2rem(60);
+    padding-top: px2rem(50);
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+    div {
+        flex: 1;
+        line-height:  px2rem(60);
+
+    span{
+        font-size: px2rem(40);
+    }
+    }
+
+}
+#head{
+     .tj {
+    text-align: center;
+    font-weight: bold
+    }
+} 
+#title{
+    margin-top: px2rem(14);
+    
+    .titone{
+        margin-left: px2rem(30);
+        margin-right: px2rem(30);
+        height: px2rem(128);
+        // line-height: px2rem(124);
+        border-bottom:1px solid #c2c2c2;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .tou{
+            line-height: px2rem(128);
+            font-size: px2rem(30);
+        }
+        .zp{ 
+            // padding-top: 10px;
+            // height: 100%;
+            
+            img{  
+                position: relative;
+               top:px2rem(30);
+                height: px2rem(70);
+                width: px2rem(70);
+                border-radius: 100px;          
+            }
+        }
+     } 
+     .titcope{
+         div{
+            font-size: px2rem(30);
+         }
+         margin-left: px2rem(30);
+         margin-right: px2rem(30);
+        height: px2rem(80);
+        display: flex;
+        line-height: px2rem(80);
+        justify-content: space-between;
+        border-bottom:1px solid #c2c2c2;
+        .name{
+            color: #c2c2c2;
+            span{
+                font-size: px2rem(30);
+            }
+        }
+     }
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: px2rem(53);
+    height:px2rem(80);
+    button{
+        background-color: #ffffff;
+         font-weight: bold;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        border-bottom:none;
+         font-size: px2rem(30);
+    }
+}

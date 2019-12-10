@@ -1,0 +1,65 @@
+#head {
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  height: 1.28rem;
+  padding-top: 1.06667rem;
+  display: flex;
+  justify-content: space-between; }
+
+#head div {
+  flex: 1;
+  line-height: 1.28rem; }
+  #head div span {
+    font-size: 0.85333rem; }
+
+#head .tj {
+  text-align: center;
+  font-weight: bold; }
+
+#title {
+  margin-top: 0.29867rem; }
+  #title .titone {
+    margin-left: 0.64rem;
+    margin-right: 0.64rem;
+    height: 2.73067rem;
+    border-bottom: 1px solid #c2c2c2;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; }
+    #title .titone .tou {
+      line-height: 2.73067rem;
+      font-size: 0.64rem; }
+    #title .titone .zp img {
+      position: relative;
+      top: 0.64rem;
+      height: 1.49333rem;
+      width: 1.49333rem;
+      border-radius: 100px; }
+  #title .titcope {
+    margin-left: 0.64rem;
+    margin-right: 0.64rem;
+    height: 1.70667rem;
+    display: flex;
+    line-height: 1.70667rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #c2c2c2; }
+    #title .titcope div {
+      font-size: 0.64rem; }
+    #title .titcope .name {
+      color: #c2c2c2; }
+      #title .titcope .name span {
+        font-size: 0.64rem; }
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.13067rem;
+  height: 1.70667rem; }
+  #bottom button {
+    background-color: #ffffff;
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 0.64rem; }

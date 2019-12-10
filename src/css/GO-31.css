@@ -1,0 +1,65 @@
+#head {
+  padding-top: 0.85333rem;
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+  height: 1.28rem;
+  display: flex;
+  justify-content: space-between; }
+
+#head div {
+  flex: 1;
+  line-height: 1.28rem; }
+
+#head .tj {
+  text-align: center; }
+
+#head span {
+  font-size: 0.85333rem; }
+
+#daohang {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.96rem;
+  padding-right: 0.96rem; }
+  #daohang div {
+    height: 1.92rem;
+    line-height: 1.92rem;
+    font-size: 0.85333rem; }
+
+#len {
+  height: 0.29867rem;
+  background: #c2c2c2; }
+
+#shenti {
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+  height: 2.02667rem;
+  line-height: 2.02667rem;
+  border-bottom: 1px solid #c2c2c2;
+  overflow: hidden; }
+  #shenti span {
+    font-size: 0.64rem; }
+  #shenti .right {
+    float: right; }
+
+#money {
+  margin-left: 0.64rem;
+  margin-right: 0.64rem;
+  height: 2.90133rem;
+  overflow: hidden;
+  font-size: 0.85333rem; }
+  #money .ouyuan {
+    float: left; }
+    #money .ouyuan span {
+      line-height: 2.90133rem;
+      font-size: 1.28rem; }
+  #money .day {
+    float: right; }
+    #money .day p {
+      margin-top: 0.68267rem;
+      font-size: 0.64rem; }
+    #money .day span {
+      padding-top: 0.42667rem;
+      float: right;
+      font-size: 0.64rem;
+      color: orange; }

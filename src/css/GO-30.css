@@ -1,0 +1,74 @@
+#head {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between; }
+
+#head div {
+  flex: 1;
+  line-height: 48px; }
+
+#head .tj {
+  text-align: center;
+  font-weight: bold; }
+
+#do {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 85px; }
+
+#do .yuan {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #30d25b;
+  margin: 0 auto; }
+
+#do .yuan2 {
+  width: 83px;
+  height: 83px;
+  border-radius: 50px;
+  background: #eafbee;
+  display: flex;
+  align-items: center; }
+
+#xiadan {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 17px; }
+
+#zhifudingdan {
+  text-align: center;
+  font-size: 8px;
+  color: #cccccc; }
+
+.anniu {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+  padding-bottom: 24px; }
+
+.anniu button {
+  height: 38px;
+  width: 212px;
+  border-radius: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  background: #333333;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: none; }
+
+.anniu2 {
+  display: flex;
+  justify-content: center; }
+
+.anniu2 button {
+  height: 40px;
+  width: 196.5px;
+  background: #ffffff;
+  border-radius: 40px;
+  border: 1px solid #cccccc; }

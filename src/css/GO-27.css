@@ -1,0 +1,99 @@
+#head {
+  display: flex;
+  height: 2.13333rem;
+  justify-content: space-between;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  padding-top: 1.06667rem; }
+  #head div {
+    line-height: 2.13333rem;
+    font-size: 0.85333rem; }
+    #head div span {
+      font-size: 0.85333rem; }
+
+#daohang {
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  padding-top: 0.42667rem;
+  display: flex;
+  height: 1.28rem;
+  justify-content: space-around;
+  border-bottom: 1px solid #c5c5c5; }
+  #daohang div {
+    color: #c5c5c5;
+    font-size: 0.64rem; }
+    #daohang div span {
+      color: #c5c5c5;
+      font-size: 0.64rem; }
+
+#ulbox {
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  display: flex;
+  flex-flow: row wrap; }
+  #ulbox li {
+    padding-top: 0.64rem;
+    width: 50%; }
+    #ulbox li img {
+      text-align: center;
+      width: 5.97333rem;
+      height: 5.97333rem;
+      padding-bottom: 0.74667rem; }
+    #ulbox li p {
+      font-size: 0.64rem; }
+    #ulbox li .xiabox {
+      height: 1.49333rem;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 0.64rem; }
+      #ulbox li .xiabox .xbleft {
+        color: red;
+        line-height: 1.49333rem;
+        display: block; }
+        #ulbox li .xiabox .xbleft span {
+          font-size: 0.72533rem; }
+      #ulbox li .xiabox .xbzhong {
+        color: #c5c5c5;
+        text-decoration: line-through;
+        line-height: 1.49333rem; }
+        #ulbox li .xiabox .xbzhong span {
+          font-size: 0.42667rem; }
+      #ulbox li .xiabox .xbright {
+        line-height: 1.49333rem; }
+        #ulbox li .xiabox .xbright span {
+          font-size: 0.85333rem; }
+
+#end {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 2.13333rem;
+  height: 2.13333rem;
+  margin-bottom: 0.64rem;
+  margin-right: 0.64rem;
+  border: 2px solid #c5c5c5;
+  border-radius: 100px;
+  box-shadow: #ccc 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #end a {
+    text-decoration: none;
+    color: #333; }
+    #end a span {
+      font-size: 1.06667rem;
+      color: orangered; }
+  #end .ends {
+    position: absolute;
+    top: -0.10667rem;
+    right: 0.04267rem;
+    width: 0.74667rem;
+    height: 0.74667rem;
+    background: orangered;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #end .ends p {
+      font-size: 0.64rem;
+      color: #ffffff; }

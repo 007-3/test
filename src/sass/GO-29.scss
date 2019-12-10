@@ -1,0 +1,200 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+
+
+#head{
+    display: flex;
+    height: px2rem(100);
+    justify-content: space-between;
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    padding-top: px2rem(50);
+    div{
+        line-height: px2rem(100);
+        font-size: px2rem(60);
+        // font-weight: bold;
+        span{
+            font-size: px2rem(60);
+        }
+    }
+}
+#bozi{
+    
+    display: flex;
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    padding-top: px2rem(60);
+    padding-bottom: px2rem(40);
+    justify-content: space-between;
+    
+    .yuan{
+        width: px2rem(90);
+        height: px2rem(90);
+        background: #fb9342;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;align-items: center;
+        span{
+        font-size: px2rem(60);
+        color: #ffffff; 
+        }
+    }
+    .touzhong{
+        padding-left: px2rem(10);
+        padding-right: px2rem(10);
+        flex-grow: 1;
+        .toushang{
+                position: relative;
+            .name{
+                display: inline-block;
+                font-weight: bold;
+            }
+            .tel{
+                position: absolute;
+                right: 0;
+                display: inline-block;
+            }
+        }
+        p{
+            font-size: px2rem(20);
+            display: inline-block;
+            color: #a5a5a5;
+        }
+    }
+    .you{
+        display: flex;
+        align-items: center;
+    }
+}
+#qugan{
+    padding-left: px2rem(30);
+    padding-bottom: px2rem(40);
+    .qugantou{
+        height: px2rem(84);
+        border-bottom: 1px solid #a5a5a5;
+        p{
+            display: inline-block;
+            line-height: px2rem(84);
+        }
+    }
+    .quganwei{
+        display: flex;
+        border-bottom: 1px solid #a5a5a5;
+        img{
+            height: px2rem(200);
+        }
+        .quganbao{
+            width: 100%;
+            .qugantop{
+                overflow: hidden;
+                p{
+                    display: inline-block;
+                    padding-top: px2rem(40);
+                }
+                .qtpright{
+                    float: right;
+                    padding-right: px2rem(30);
+                }
+            }
+            .quganbottom{
+                p{
+                    padding-top: px2rem(40);
+                    font-size: px2rem(10);
+                    color: #a5a5a5;
+                }
+            }
+        }
+        
+    }
+}
+#quganzon{
+    padding-left: px2rem(30);
+    padding-right: px2rem(30);
+    .qgz{
+        display: flex;
+        justify-content:space-between;
+        color: #666666;
+        padding-bottom: px2rem(40);
+        .bianred{
+            color: red;
+        }
+    }
+}
+#boulot{
+    padding-top: px2rem(22);
+    .zffs{
+        display: flex;
+        justify-content: space-between;
+        margin-left: px2rem(30);
+        margin-right: px2rem(30);
+        border-bottom: 2px solid #a5a5a5;
+        div{
+            padding-top: px2rem(50);
+            padding-bottom: px2rem(50);
+            
+        }
+        .bianshe{
+                color: #a5a5a5;
+        }
+    }
+    .zffss{
+        display: flex;
+        justify-content: space-between;
+        margin-left: px2rem(30);
+        margin-right: px2rem(30);
+        // border-bottom: 2px solid #a5a5a5;
+        div{
+            padding-top: px2rem(50);
+            padding-bottom: px2rem(50);
+            
+        }
+        .bianshe{
+                color: #a5a5a5;
+        }
+    }
+}
+#beizhu{
+    padding-top: px2rem(22);
+    padding-left: px2rem(30);
+    // padding-right: px2rem(30);
+
+    input{
+        // padding-top: px2rem(50);
+        // padding-bottom: px2rem(50);
+        border: none;
+        width: 100%;
+        height: px2rem(148);
+        line-height: px2rem(148);
+    }
+    input::-webkit-input-placeholder{
+        columns: #c5c5c5;
+        font-size: px2rem(60);
+   }
+}
+#end{
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
+    padding-top: px2rem(118);
+    padding-left: px2rem(30);
+    height: px2rem(142);
+    display: flex;
+    justify-content: space-between;
+    line-height:  px2rem(142);
+    // div{
+        span{
+            color: red;
+        }
+    // }
+    .qrxd{
+        width: px2rem(420);
+        display: flex;
+        background: #fe7f5d;
+        color: #ffffff;
+        font-size: px2rem(50);
+        justify-content: center;
+    }
+}

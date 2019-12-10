@@ -1,0 +1,76 @@
+#head {
+  padding-top: 0.64rem;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  height: 1.70667rem;
+  display: flex;
+  justify-content: space-between; }
+  #head div {
+    flex: 1;
+    line-height: 1.70667rem; }
+  #head .tj {
+    text-align: center;
+    font-size: PX2REM(40); }
+  #head .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    #head .right span {
+      font-size: 0.85333rem;
+      font-weight: bold; }
+
+#box {
+  padding-top: 0.53333rem;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  display: flex;
+  border-bottom: 4px solid #c2c2c2; }
+  #box .left {
+    width: 25%;
+    border-right: 4px solid #c2c2c2;
+    overflow: hidden;
+    height: 83vh; }
+    #box .left li {
+      height: 0.85333rem;
+      height: 1.70667rem;
+      text-align: center;
+      line-height: 1.70667rem;
+      font-size: 0.85333rem; }
+  #box .right {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 0.85333rem;
+    flex: 1;
+    height: 40vh; }
+    #box .right li {
+      width: 33%;
+      margin-top: 0.64rem;
+      padding-bottom: 0.64rem; }
+      #box .right li .tupian {
+        text-align: center; }
+        #box .right li .tupian img {
+          height: 2.13333rem;
+          width: 2.13333rem; }
+      #box .right li p {
+        text-align: center;
+        font-size: 0.64rem; }
+
+#end {
+  margin-top: 0.21333rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  #end ul {
+    display: flex; }
+    #end ul li {
+      flex: 1;
+      text-align: center; }
+      #end ul li a {
+        text-decoration: none;
+        color: #333; }
+        #end ul li a span {
+          font-size: 0.85333rem; }
+        #end ul li a p {
+          padding-top: 0.10667rem;
+          font-size: 0.53333rem;
+          margin-bottom: 0.21333rem; }

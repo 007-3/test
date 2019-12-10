@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+#head { 
+        padding-top: px2rem(30);
+        padding-left: px2rem(30);
+        padding-right: px2rem(30);
+        height: px2rem(80);
+        display: flex;
+        justify-content: space-between; 
+        div {
+            flex: 1;
+            line-height: px2rem(80);
+        }
+        .tj {
+            text-align: center;
+            font-size: PX2REM(40);
+        }
+        .right {
+                display: flex;
+                align-items: center;
+                justify-content:flex-end;
+        span {
+            font-size:px2rem(40);
+            font-weight: bold;
+        }
+    }
+}
+#box {
+    padding-top: px2rem(25);
+    padding-left: px2rem(30);
+    padding-right:px2rem(30);
+    display: flex;
+     border-bottom:  4px solid #c2c2c2;
+    .left {
+            width: 25%;
+            border-right: 4px solid #c2c2c2;   
+            overflow: hidden;
+            height: 83vh;
+        li {
+            height: px2rem(40);
+            // display: flex;
+            // align-items: center;
+            height: px2rem(80);
+            text-align:center;
+            line-height: px2rem(80);
+            font-size: px2rem(40);
+        }
+    }
+    .right {
+        // float: right;
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: px2rem(40);
+        flex: 1;
+        height: 40vh;
+        li {
+            width: 33%;
+            margin-top: px2rem(30);
+            padding-bottom: px2rem(30); 
+            .tupian {
+                    text-align: center;
+                img {
+                    height:  px2rem(100);
+                    width: px2rem(100);
+                }
+            }
+            p {
+                text-align: center;
+                font-size: px2rem(30);
+            }
+        }
+
+    }
+}
+#end{ 
+    margin-top: px2rem(10);
+    position: fixed;
+    // padding-top: px2rem(15);
+    bottom: 0;
+    width: 100%;
+   
+    ul{
+        // display: flex;
+         display: flex;
+        li{
+            flex: 1;
+            // 
+            text-align: center;
+            a{
+                text-decoration:none;
+                color:#333;
+            span{
+                font-size: px2rem(40);
+            }
+            p{
+                padding-top: px2rem(5);
+                font-size:px2rem(25);
+                margin-bottom: px2rem(10);
+            }
+            }
+        }
+    }
+}

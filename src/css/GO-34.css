@@ -1,0 +1,125 @@
+#hedtop {
+  height: 11.09333rem;
+  width: 100%;
+  background-color: #fd8850;
+  position: absolute; }
+  #hedtop .grzx {
+    padding-top: 1.28rem;
+    padding-bottom: 1.06667rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.06667rem; }
+  #hedtop .renwu {
+    padding-left: 0.64rem;
+    padding-right: 0.64rem;
+    display: flex;
+    justify-content: space-between; }
+    #hedtop .renwu .name p {
+      display: inline-block;
+      font-size: 1.06667rem;
+      color: #ffffff;
+      padding-bottom: 0.21333rem; }
+    #hedtop .renwu .name .zuoxia {
+      position: relative; }
+      #hedtop .renwu .name .zuoxia .dl {
+        height: 1.38667rem;
+        width: 1.38667rem;
+        background: #ffffff;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        #hedtop .renwu .name .zuoxia .dl span {
+          font-size: 0.85333rem;
+          color: #fd8850; }
+      #hedtop .renwu .name .zuoxia .txy {
+        position: absolute;
+        top: 0.256rem;
+        left: 0.896rem;
+        height: 0.96rem;
+        width: 3.2rem;
+        background: #ffffff;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        #hedtop .renwu .name .zuoxia .txy span {
+          font-size: 0.53333rem;
+          color: #fd8850; }
+    #hedtop .renwu .touxiang img {
+      border-radius: 60px;
+      width: 2.688rem;
+      height: 2.688rem; }
+  #hedtop .end {
+    padding-top: 0.85333rem;
+    display: flex; }
+    #hedtop .end li {
+      flex: 1; }
+      #hedtop .end li #csp {
+        font-size: 1.06667rem;
+        color: #ffffff; }
+      #hedtop .end li p {
+        padding-top: 0.32rem;
+        text-align: center;
+        font-size: 0.55467rem;
+        padding-left: 15px;
+        color: #ffffff; }
+  #hedtop .amyin {
+    width: 14.08rem;
+    height: 0.85333rem;
+    background-color: #fe9e75;
+    margin: 0 auto;
+    margin-top: 0.78933rem;
+    border-radius: 60px; }
+
+#zhongbox {
+  top: 10.66667rem;
+  position: relative;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem; }
+  #zhongbox .hebox {
+    border-radius: 5%;
+    background-color: #ffffff;
+    border: 1px solid #c6c6c6; }
+    #zhongbox .hebox .aass {
+      padding-top: 0.64rem;
+      margin-left: 0.64rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid #c6c6c6; }
+      #zhongbox .hebox .aass div {
+        padding-top: 0.64rem;
+        padding-bottom: 0.64rem; }
+        #zhongbox .hebox .aass div a {
+          padding-left: 0.42667rem; }
+      #zhongbox .hebox .aass .right {
+        padding-right: 0.64rem; }
+    #zhongbox .hebox .aas {
+      padding-top: 0.64rem;
+      padding-bottom: 1.06667rem;
+      margin-left: 0.64rem;
+      display: flex;
+      justify-content: space-between; }
+      #zhongbox .hebox .aas div {
+        padding-top: 0.64rem;
+        padding-bottom: 0.64rem; }
+        #zhongbox .hebox .aas div a {
+          padding-left: 0.42667rem; }
+      #zhongbox .hebox .aas .right {
+        padding-right: 0.64rem; }
+
+#ender {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%; }
+  #ender li {
+    flex: 1; }
+    #ender li #csp {
+      font-size: 1.06667rem;
+      color: black; }
+    #ender li p {
+      padding-top: 0.32rem;
+      text-align: center;
+      font-size: 0.55467rem;
+      color: #c2c2c2; }

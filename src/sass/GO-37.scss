@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+
+$designWidth:750;
+
+#head {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+     div {
+    flex: 1;
+    line-height: 48px;
+    }
+}
+#head{
+    .tj {
+    text-align: center;
+    font-weight: bold
+    }
+} 
+#text {
+    margin-left: 27px;
+    margin-right: 27px;
+    display: flex;
+}
+#text{
+     .kehu {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    }
+} 
+#text{
+     .kehu{
+         p {
+    padding-bottom: 7px;
+    font-size: 12px;
+         }
+     } 
+} 
+#text{
+    .kehu{
+        .shuruzhanghao {
+    display: flex;
+    /*ÊÇÎªÁËÈÃinputÌîÂú*/
+        }
+    } 
+} 
+#text{
+     .kehu{
+          .shuruzhanghao{
+              input {
+    flex-grow: 1;
+    height: 41px;
+    background: #f8f8f8;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 14px;
+                }
+          } 
+     }
+}
+#text{
+    .kehu{
+        .shuruzhanghao{
+            #beizu{
+    height:70px;
+            }
+        } 
+    } 
+} 
+#bottom {
+    display: flex;
+    height: 41px;
+}
+#bottom{
+    button {
+    width: 253px;
+    height: 41px;
+    border-radius: 50px;
+    background: #fd8358;
+    color: #ffffff;
+    margin: 0 auto;
+    box-shadow: -10px -20px 20px #cccccc;
+    align-self: center;
+    margin-top: 35px;
+    }
+} 
+

@@ -1,0 +1,144 @@
+#head {
+  display: flex;
+  height: 2.13333rem;
+  justify-content: space-between;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  padding-top: 1.06667rem; }
+  #head div {
+    line-height: 2.13333rem;
+    font-size: 1.28rem; }
+    #head div span {
+      font-size: 1.28rem; }
+
+#bozi {
+  display: flex;
+  padding-left: 0.64rem;
+  padding-right: 0.64rem;
+  padding-top: 1.28rem;
+  padding-bottom: 0.85333rem;
+  justify-content: space-between; }
+  #bozi .yuan {
+    width: 1.92rem;
+    height: 1.92rem;
+    background: #fb9342;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #bozi .yuan span {
+      font-size: 1.28rem;
+      color: #ffffff; }
+  #bozi .touzhong {
+    padding-left: 0.21333rem;
+    padding-right: 0.21333rem;
+    flex-grow: 1; }
+    #bozi .touzhong .toushang {
+      position: relative; }
+      #bozi .touzhong .toushang .name {
+        display: inline-block;
+        font-weight: bold; }
+      #bozi .touzhong .toushang .tel {
+        position: absolute;
+        right: 0;
+        display: inline-block; }
+    #bozi .touzhong p {
+      font-size: 0.42667rem;
+      display: inline-block;
+      color: #a5a5a5; }
+  #bozi .you {
+    display: flex;
+    align-items: center; }
+
+#qugan {
+  padding-left: 0.64rem;
+  padding-bottom: 0.85333rem; }
+  #qugan .qugantou {
+    height: 1.792rem;
+    border-bottom: 1px solid #a5a5a5; }
+    #qugan .qugantou p {
+      display: inline-block;
+      line-height: 1.792rem; }
+  #qugan .quganwei {
+    display: flex;
+    border-bottom: 1px solid #a5a5a5; }
+    #qugan .quganwei img {
+      height: 4.26667rem; }
+    #qugan .quganwei .quganbao {
+      width: 100%; }
+      #qugan .quganwei .quganbao .qugantop {
+        overflow: hidden; }
+        #qugan .quganwei .quganbao .qugantop p {
+          display: inline-block;
+          padding-top: 0.85333rem; }
+        #qugan .quganwei .quganbao .qugantop .qtpright {
+          float: right;
+          padding-right: 0.64rem; }
+      #qugan .quganwei .quganbao .quganbottom p {
+        padding-top: 0.85333rem;
+        font-size: 0.21333rem;
+        color: #a5a5a5; }
+
+#quganzon {
+  padding-left: 0.64rem;
+  padding-right: 0.64rem; }
+  #quganzon .qgz {
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    padding-bottom: 0.85333rem; }
+    #quganzon .qgz .bianred {
+      color: red; }
+
+#boulot {
+  padding-top: 0.46933rem; }
+  #boulot .zffs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.64rem;
+    margin-right: 0.64rem;
+    border-bottom: 2px solid #a5a5a5; }
+    #boulot .zffs div {
+      padding-top: 1.06667rem;
+      padding-bottom: 1.06667rem; }
+    #boulot .zffs .bianshe {
+      color: #a5a5a5; }
+  #boulot .zffss {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.64rem;
+    margin-right: 0.64rem; }
+    #boulot .zffss div {
+      padding-top: 1.06667rem;
+      padding-bottom: 1.06667rem; }
+    #boulot .zffss .bianshe {
+      color: #a5a5a5; }
+
+#beizhu {
+  padding-top: 0.46933rem;
+  padding-left: 0.64rem; }
+  #beizhu input {
+    border: none;
+    width: 100%;
+    height: 3.15733rem;
+    line-height: 3.15733rem; }
+  #beizhu input::-webkit-input-placeholder {
+    columns: #c5c5c5;
+    font-size: 1.28rem; }
+
+#end {
+  padding-top: 2.51733rem;
+  padding-left: 0.64rem;
+  height: 3.02933rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 3.02933rem; }
+  #end span {
+    color: red; }
+  #end .qrxd {
+    width: 8.96rem;
+    display: flex;
+    background: #fe7f5d;
+    color: #ffffff;
+    font-size: 1.06667rem;
+    justify-content: center; }
